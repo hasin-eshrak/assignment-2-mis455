@@ -43,13 +43,18 @@
     <div class="container">
         <input type="checkbox" id="check">
         <div class="login form">
-          <h2>Pet Name Generator</h2><br>
+          <h2>NickName Generator</h2><br>
           <form action="#">
-            <input type="text" placeholder="Name OF Your Birthplace">
-            <input type="password" placeholder="The Last Thing You Ate/Drank">
-            <button class="generate">Generate Name</button>
+            <input id="place" type="text" placeholder="Name OF Your Birthplace">
+            <input id="food" type="text" placeholder="The Last Thing You Ate/Drank">
+            <button onclick="process()" class="generate">Generate Name</button>
           </form>
         </div>
+    </div>
+
+    <div id="results">
+
+    </div>
 
     <!-- END OF NAME GENERATOR SECTION -->
 

@@ -10,3 +10,16 @@ menuOpen.addEventListener("click", () => {
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
+
+function process(){
+  var birthplace = document.getElementById("place").value;
+  var food = document.getElementById("food").value;
+
+  var message = `
+  
+  <h3> Your Generated NickName Is : ${birthplace} ${food}. <h4>
+  
+  `;
+
+  document.getElementById("results").innerHTML = message;
+}

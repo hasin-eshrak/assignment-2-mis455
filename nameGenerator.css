@@ -238,4 +238,12 @@ h2 {
     background: #e68f00;
 }
 
+#results{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 32%;
+}
+
 /* START OF NAME GENERATOR SECTION */
