@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contactMe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- START OF NAVIGATION BAR -->
+
+    <header>
+        <h1>HASIN ESHRAK</h1>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html"><h3>Home</h3></a></li>
+                <li><a href="serviecs.html"><h3>Services</h3></a></li>
+                <li><a href="nameGenerator.html"><h3>Name Generator</h3></a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="contactMe.html"><h3>Contact</h3></a>
+        <p class="menu cta"><b>Menu</b></p>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="index.html">Home</a>
+            <a href="serviecs.html">Services</a>
+            <a href="nameGenerator.html">Name Generator</a>
+            <a href="contactMe.html">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- END OF NAVIGATION BAR -->
+
+    <hr color="white" size="2px">
+
+    <div class="contactUs">
+        <div class="title">
+            <h2>CONTACT ME</h2>
+        </div>
+        <div class="box">
+            <div class="contact form">
+                <h3>Send A Message</h3>
+                <form action="connect.php" method="post">
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>First Name</span>
+                                <input type="text" placeholder="Hasin" name="firstName">
+                            </div>
+                            <div class="inputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Eshrak" name="lastName">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>E-Mail</span>
+                                <input type="text" placeholder="hasin...@gmail.com" name="email">
+                            </div>
+                            <div class="inputBox">
+                                <span>Mobile Number</span>
+                                <input type="text" placeholder="+880 171* ******" name="number">
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Message</span>
+                                <textarea placeholder="Write Your Message Here ..." name="message" id="" cols="30"
+                                    rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputBox">
+                                <button>Send</button>
+                                <!-- <input type="Submit" value="Send"> -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><ion-icon name="location"></ion-icon></span>
+                        <p>Bashundhara R/A, Dhaka <br>BANGLADESH</p>
+                    </div>
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                        <a href="mailto:m.hasin.eshrak@gmail.com">m.hasin.eshrak@gmail.com</a>
+                    </div>
+                    <div>
+                        <span><ion-icon name="call"></ion-icon></span>
+                        <a href="tel:+8801717228929">+880 1717-228929</a>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/hasin.eshra/"><ion-icon
+                                    name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="https://twitter.com/hasin_eshrak"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/hasin-eshrak-a44b28223/"><ion-icon
+                                    name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="https://www.instagram.com/little_poison_007/"><ion-icon
+                                    name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1397.1741238408067!2d90.42749561466042!3d23.81572336675222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64be6744a57%3A0xeacead51ebe2bf60!2sIndependent%20University%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1680877905927!5m2!1sen!2sbd"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+</html>
